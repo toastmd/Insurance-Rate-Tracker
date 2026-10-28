@@ -1,0 +1,26 @@
+name: insurance_rate_tracker
+description: Track insurance rates and quotes from multiple carriers on Android, iOS and iPadOS.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.2
+  intl: ">=0.19.0 <0.21.0"
+  google_fonts: ^6.2.1
+  share_plus: ^10.1.4
+  path_provider: ^2.1.4
+  file_picker: ^8.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
